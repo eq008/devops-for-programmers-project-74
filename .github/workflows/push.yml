@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: run tests
-        run: make docker-test
+        run: make app-test
       - name: build and push
         uses: docker/build-push-action@v2
         with:
