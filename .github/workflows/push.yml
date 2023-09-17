@@ -16,17 +16,3 @@ jobs:
           context: .
           push: true
           tags: roberto345/devops-for-programmers-project-74:latest
-
-
-
-
-#  Создайте файл .github/workflows/push.yml,
-# в котором описан процесс сборки проекта на push.
-# - Он должен запускать тесты,
-# - собирать production-образ и
-# - отправлять его на Docker Hub с тегом latest.
-# Тесты должны запускаться с помощью Docker Compose.
-
-# Опишите в Makefile команду ci внутри которой выполняется запуск тестов
-# с использованием Docker Compose, если вы не сделали этого ранее
-
